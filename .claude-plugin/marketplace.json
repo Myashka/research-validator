@@ -1,0 +1,22 @@
+{
+  "name": "research-validator",
+  "owner": {
+    "name": "Alex Gorbatovski",
+    "email": "alexey.gorbatovski@gmail.com"
+  },
+  "metadata": {
+    "description": "Validate ML/AI research ideas with radical honesty",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "research",
+      "description": "Validate ML/AI research ideas before writing a paper. Covers literature research, novelty assessment, methodology review, contribution framing, mock peer review, and action planning.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./research-design"
+      ]
+    }
+  ]
+}

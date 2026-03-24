@@ -1,0 +1,25 @@
+# Whitelist: ignore everything, then allow only plugin source files
+*
+
+# Root files
+!.gitignore
+!CLAUDE.md
+!AGENTS.md
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+!pyproject.toml
+!.python-version
+!uv.lock
+
+# Plugin manifest
+!.claude-plugin/
+!.claude-plugin/**
+
+# Skill source
+!research-design/
+!research-design/SKILL.md
+!research-design/references/
+!research-design/references/**
+!research-design/scripts/
+!research-design/scripts/**
